@@ -1,0 +1,98 @@
+<table>
+	
+	<tr>
+		<td>
+			<h2>Train</h2>	
+			<% @subway_names.each do |name| %>
+			<ul style="list-style-type:none">
+				<li><%= name %></li>
+			</ul>
+			<% end %>
+		</td>
+		<td>	
+			<h2>Status</h2>
+			<% @subway_status.each do |status| %>
+			<ul style="list-style-type:none">
+				<li><%= status %></li>
+			</ul>
+			<% end %>
+		</td>	
+	</tr>
+
+	<tr>
+		<td>
+			<h2>Buses</h2>	
+			<% @bus_names.each do |name| %>
+			<ul style="list-style-type:none">
+				<li><%= name %></li>
+			</ul>
+			<% end %>
+		</td>
+		<td>	
+			<h2>Status</h2>
+			<% @bus_status.each do |status| %>
+			<ul style="list-style-type:none">
+				<li><%= status %></li>
+			</ul>
+			<% end %>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<h2>BT</h2>	
+			<% @bt_names.each do |name| %>
+			<ul style="list-style-type:none">
+				<li><%= name %></li>
+			</ul>
+			<% end %>
+		</td>
+		<td>	
+			<h2>Status</h2>
+			<% @bt_status.each do |status| %>
+			<ul style="list-style-type:none">
+				<li><%= status %></li>
+			</ul>
+			<% end %>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<h2>LIRR</h2>	
+			<% @lirr_names.each do |name| %>
+			<ul style="list-style-type:none">
+				<li><%= name %></li>
+			</ul>
+			<% end %>
+		</td>
+		<td>	
+			<h2>Status</h2>
+			<% @lirr_status.each do |status| %>
+			<ul style="list-style-type:none">
+				<li><%= status %></li>
+			</ul>
+			<% end %>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<h2>MetroNorth</h2>	
+			<% @mn_names.each do |name| %>
+			<ul style="list-style-type:none">
+				<li><%= name %></li>
+			</ul>
+			<% end %>
+		</td>
+		<td>	
+			<h2>Status</h2>
+			<% @mn_status.each do |status| %>
+			<ul style="list-style-type:none">
+				<li><%= status %></li>
+			</ul>
+			<% end %>
+		</td>
+	</tr>
+
+</table>
