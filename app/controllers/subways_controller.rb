@@ -8,6 +8,12 @@ class SubwaysController < ApplicationController
 		html = open(url)
 		page = Nokogiri::HTML(html)
 
+		#MTA timestamp
+		@current_time = ''
+		page.css('service timestamp').each do |line|
+			@current_time << line
+		end
+
 		#subways
 		@subway_names = []
 		@subway_status = []
