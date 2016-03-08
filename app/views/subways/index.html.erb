@@ -1,6 +1,6 @@
 <h5>
 Instructions: <br><br>
-Media Math Interview Challenge 3/6/2015<br>
+Media Math Interview Challenge 3/5/2016<br>
 Generate a live feed of statuses of the NYC MTA transportation lines <br>
 You are provided with the API: mta.info/status/serviceStatus.txt <br>
 Scrape the Names and Statues of the transportation lines in the API (Subway, Bus etc..), and organize them by name and status
@@ -31,14 +31,6 @@ Since the API is in XML and not JSON, use the NOKOGIRI gem to scrape the API
 			</ul>
 			<% end %>
 		</td>
-		<td>	
-			<h2>Text</h2>
-			<% @subway_text.each do |text| %>
-			<ul style="list-style-type:none">
-				<li><%= text %></li>
-			</ul>
-			<% end %>
-		</td>		
 	</tr>
 
 	<tr>
